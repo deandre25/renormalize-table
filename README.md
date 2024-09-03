@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Table with Filtering, Pagination, Theme Switching, and Editing Capabilities
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project presents a table component with features such as filtering, pagination, theme switching (light/dark mode), and inline data editing. It is designed to demonstrate the basic functionalities for handling tables in a React application, such as searching, editing rows, and state management.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Data Filtering**: Users can search for a product by name using an input field to filter the table data.
+- **Pagination**: The table data is divided into pages, allowing users to navigate through large datasets conveniently.
+- **Theme Switching**: Users can toggle between light and dark themes for a more comfortable viewing experience.
+- **Inline Data Editing**: Users can edit table values directly, allowing for quick updates to the data.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The following technologies were used to build this project:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **React**: The main framework used for building components and managing application state.
+- **TypeScript**: Used for static typing, which enhances code reliability and maintainability.
+- **Tailwind CSS**: A utility-first CSS framework used for styling components quickly and efficiently.
+- **Next.js**: Used for server-side rendering and improving performance.
